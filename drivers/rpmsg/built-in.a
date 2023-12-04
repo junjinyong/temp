@@ -1,0 +1,13 @@
+!<thin>
+//                                              84        `
+rpmsg_core.o/
+qcom_glink_native.o/
+qcom_glink_ssr.o/
+qcom_glink_rpm.o/
+qcom_smd.o/
+
+/0              0           0     0     644     67016     `
+/14             0           0     0     644     127640    `
+/35             0           0     0     644     29384     `
+/53             0           0     0     644     46808     `
+/71             0           0     0     644     116520    `

@@ -1,0 +1,1 @@
+cmd_drivers/interconnect/imx/imx-interconnect.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/interconnect/imx/imx-interconnect.ko drivers/interconnect/imx/imx-interconnect.o drivers/interconnect/imx/imx-interconnect.mod.o;  true

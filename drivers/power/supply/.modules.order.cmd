@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/modules.order := {   echo drivers/power/supply/sbs-battery.ko;   echo drivers/power/supply/max17042_battery.ko;   echo drivers/power/supply/mt6360_charger.ko;   echo drivers/power/supply/bq25890_charger.ko;   echo drivers/power/supply/bq25980_charger.ko; :; } > drivers/power/supply/modules.order

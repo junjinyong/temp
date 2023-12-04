@@ -1,0 +1,1 @@
+cmd_drivers/hwtracing/coresight/coresight.mod := printf '%s\n'   coresight-core.o coresight-etm-perf.o coresight-platform.o coresight-sysfs.o coresight-syscfg.o coresight-config.o coresight-cfg-preload.o coresight-cfg-afdo.o coresight-syscfg-configfs.o | awk '!x[$$0]++ { print("drivers/hwtracing/coresight/"$$0) }' > drivers/hwtracing/coresight/coresight.mod

@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/broadcom/genet/genet.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/net/ethernet/broadcom/genet/genet.o @drivers/net/ethernet/broadcom/genet/genet.mod 

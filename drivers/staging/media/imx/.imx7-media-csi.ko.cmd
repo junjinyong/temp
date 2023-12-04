@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/imx/imx7-media-csi.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/staging/media/imx/imx7-media-csi.ko drivers/staging/media/imx/imx7-media-csi.o drivers/staging/media/imx/imx7-media-csi.mod.o;  true

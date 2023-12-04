@@ -1,0 +1,4 @@
+drivers/reset/reset-berlin.ko
+drivers/reset/reset-meson-audio-arb.ko
+drivers/reset/reset-qcom-pdc.ko
+drivers/reset/reset-raspberrypi.ko

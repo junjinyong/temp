@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/modules.order := {   echo drivers/input/keyboard/adc-keys.ko;   echo drivers/input/keyboard/imx_sc_key.ko;   echo drivers/input/keyboard/snvs_pwrkey.ko; :; } > drivers/input/keyboard/modules.order

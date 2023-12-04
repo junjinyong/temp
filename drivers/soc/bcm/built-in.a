@@ -1,0 +1,12 @@
+!<thin>
+//                                              94        `
+bcm2835-power.o/
+raspberrypi-power.o/
+bcm63xx/bcm-pmb.o/
+brcmstb/common.o/
+brcmstb/biuctrl.o/
+/0              0           0     0     644     74320     `
+/17             0           0     0     644     48856     `
+/38             0           0     0     644     39792     `
+/57             0           0     0     644     30616     `
+/75             0           0     0     644     36176     `

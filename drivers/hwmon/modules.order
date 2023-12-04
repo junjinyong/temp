@@ -1,0 +1,9 @@
+drivers/hwmon/gpio-fan.ko
+drivers/hwmon/ina2xx.ko
+drivers/hwmon/ina3221.ko
+drivers/hwmon/jc42.ko
+drivers/hwmon/lm75.ko
+drivers/hwmon/lm90.ko
+drivers/hwmon/pwm-fan.ko
+drivers/hwmon/raspberrypi-hwmon.ko
+drivers/hwmon/sl28cpld-hwmon.ko

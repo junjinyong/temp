@@ -1,0 +1,1 @@
+cmd_drivers/thermal/qcom/modules.order := {   echo drivers/thermal/qcom/qcom-spmi-adc-tm5.ko;   echo drivers/thermal/qcom/qcom-spmi-temp-alarm.ko;   echo drivers/thermal/qcom/lmh.ko; :; } > drivers/thermal/qcom/modules.order

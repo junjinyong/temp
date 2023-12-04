@@ -1,0 +1,10 @@
+drivers/interconnect/qcom/qnoc-msm8916.ko
+drivers/interconnect/qcom/qnoc-msm8996.ko
+drivers/interconnect/qcom/icc-osm-l3.ko
+drivers/interconnect/qcom/qnoc-qcs404.ko
+drivers/interconnect/qcom/qnoc-sc7180.ko
+drivers/interconnect/qcom/qnoc-sm8150.ko
+drivers/interconnect/qcom/qnoc-sm8250.ko
+drivers/interconnect/qcom/qnoc-sm8350.ko
+drivers/interconnect/qcom/qnoc-sm8450.ko
+drivers/interconnect/qcom/icc-smd-rpm.ko

@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/imx/modules.order := {   echo drivers/staging/media/imx/imx-media-common.ko;   echo drivers/staging/media/imx/imx7-media-csi.ko;   echo drivers/staging/media/imx/imx8mq-mipi-csi2.ko; :; } > drivers/staging/media/imx/modules.order

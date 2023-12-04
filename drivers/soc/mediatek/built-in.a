@@ -1,0 +1,15 @@
+!<thin>
+//                                              92        `
+mtk-infracfg.o/
+mtk-pmic-wrap.o/
+mtk-scpsys.o/
+mtk-pm-domains.o/
+mtk-mmsys.o/
+mtk-mutex.o/
+
+/0              0           0     0     644     16744     `
+/16             0           0     0     644     144152    `
+/33             0           0     0     644     73784     `
+/47             0           0     0     644     112464    `
+/65             0           0     0     644     59720     `
+/78             0           0     0     644     67832     `

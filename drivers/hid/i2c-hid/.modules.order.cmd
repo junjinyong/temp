@@ -1,0 +1,1 @@
+cmd_drivers/hid/i2c-hid/modules.order := {   echo drivers/hid/i2c-hid/i2c-hid.ko;   echo drivers/hid/i2c-hid/i2c-hid-acpi.ko;   echo drivers/hid/i2c-hid/i2c-hid-of.ko; :; } > drivers/hid/i2c-hid/modules.order

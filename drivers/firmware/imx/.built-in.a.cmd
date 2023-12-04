@@ -1,0 +1,1 @@
+cmd_drivers/firmware/imx/built-in.a := rm -f drivers/firmware/imx/built-in.a;  printf "drivers/firmware/imx/%s " imx-scu.o misc.o imx-scu-irq.o rm.o imx-scu-soc.o scu-pd.o | xargs aarch64-linux-gnu-ar cDPrST drivers/firmware/imx/built-in.a

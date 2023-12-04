@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ti/built-in.a := rm -f drivers/net/wireless/ti/built-in.a;  printf "drivers/net/wireless/ti/%s " wilink_platform_data.o | xargs aarch64-linux-gnu-ar cDPrST drivers/net/wireless/ti/built-in.a

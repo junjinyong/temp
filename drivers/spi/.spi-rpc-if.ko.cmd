@@ -1,0 +1,1 @@
+cmd_drivers/spi/spi-rpc-if.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/spi/spi-rpc-if.ko drivers/spi/spi-rpc-if.o drivers/spi/spi-rpc-if.mod.o;  true

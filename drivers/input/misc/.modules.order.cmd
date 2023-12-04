@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/modules.order := {   echo drivers/input/misc/pm8xxx-vibrator.ko;   echo drivers/input/misc/pwm-beeper.ko;   echo drivers/input/misc/pwm-vibra.ko; :; } > drivers/input/misc/modules.order

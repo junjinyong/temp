@@ -1,0 +1,78 @@
+!<thin>
+//                                              700       `
+scsi.o/
+hosts.o/
+scsi_ioctl.o/
+scsicam.o/
+scsi_error.o/
+scsi_lib.o/
+scsi_lib_dma.o/
+scsi_scan.o/
+scsi_sysfs.o/
+scsi_devinfo.o/
+scsi_sysctl.o/
+scsi_debugfs.o/
+scsi_trace.o/
+scsi_logging.o/
+scsi_pm.o/
+scsi_bsg.o/
+scsi_common.o/
+scsi_transport_sas.o/
+libsas/sas_init.o/
+libsas/sas_phy.o/
+libsas/sas_port.o/
+libsas/sas_event.o/
+libsas/sas_discover.o/
+libsas/sas_expander.o/
+libsas/sas_scsi_host.o/
+libsas/sas_task.o/
+libsas/sas_ata.o/
+libsas/sas_host_smp.o/
+megaraid/megaraid_sas_base.o/
+megaraid/megaraid_sas_fusion.o/
+megaraid/megaraid_sas_fp.o/
+megaraid/megaraid_sas_debugfs.o/
+sd.o/
+sd_dif.o/
+hisi_sas/hisi_sas_main.o/
+hisi_sas/hisi_sas_v1_hw.o/
+hisi_sas/hisi_sas_v2_hw.o/
+hisi_sas/hisi_sas_v3_hw.o/
+/0              0           0     0     644     80832     `
+/8              0           0     0     644     86992     `
+/17             0           0     0     644     105520    `
+/31             0           0     0     644     35888     `
+/42             0           0     0     644     149648    `
+/56             0           0     0     644     250624    `
+/68             0           0     0     644     26288     `
+/84             0           0     0     644     122760    `
+/97             0           0     0     644     171464    `
+/111            0           0     0     644     74384     `
+/127            0           0     0     644     26000     `
+/142            0           0     0     644     27472     `
+/158            0           0     0     644     9712      `
+/172            0           0     0     644     56720     `
+/188            0           0     0     644     41336     `
+/199            0           0     0     644     21768     `
+/211            0           0     0     644     32960     `
+/226            0           0     0     644     181168    `
+/248            0           0     0     644     139688    `
+/267            0           0     0     644     67976     `
+/285            0           0     0     644     84056     `
+/304            0           0     0     644     93216     `
+/324            0           0     0     644     87704     `
+/347            0           0     0     644     127592    `
+/370            0           0     0     644     173616    `
+/394            0           0     0     644     61944     `
+/413            0           0     0     644     133816    `
+/431            0           0     0     644     70528     `
+/454            0           0     0     644     429104    `
+/484            0           0     0     644     274776    `
+/516            0           0     0     644     76752     `
+/544            0           0     0     644     33104     `
+/577            0           0     0     644     241176    `
+/583            0           0     0     644     10776     `
+/593            0           0     0     644     237824    `
+/619            0           0     0     644     197304    `
+/646            0           0     0     644     297480    `
+/673            0           0     0     644     444488    `

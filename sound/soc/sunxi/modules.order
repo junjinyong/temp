@@ -1,0 +1,6 @@
+sound/soc/sunxi/sun4i-i2s.ko
+sound/soc/sunxi/sun4i-spdif.ko
+sound/soc/sunxi/sun8i-codec-analog.ko
+sound/soc/sunxi/sun50i-codec-analog.ko
+sound/soc/sunxi/sun8i-codec.ko
+sound/soc/sunxi/sun8i-adda-pr-regmap.ko

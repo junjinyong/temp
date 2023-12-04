@@ -1,0 +1,3 @@
+drivers/input/misc/pm8xxx-vibrator.ko
+drivers/input/misc/pwm-beeper.ko
+drivers/input/misc/pwm-vibra.ko

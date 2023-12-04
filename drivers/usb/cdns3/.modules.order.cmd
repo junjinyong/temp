@@ -1,0 +1,1 @@
+cmd_drivers/usb/cdns3/modules.order := {   echo drivers/usb/cdns3/cdns-usb-common.ko;   echo drivers/usb/cdns3/cdns3.ko;   echo drivers/usb/cdns3/cdns3-pci-wrap.ko;   echo drivers/usb/cdns3/cdns3-ti.ko;   echo drivers/usb/cdns3/cdns3-imx.ko; :; } > drivers/usb/cdns3/modules.order

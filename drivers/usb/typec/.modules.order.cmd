@@ -1,0 +1,1 @@
+cmd_drivers/usb/typec/modules.order := {   echo drivers/usb/typec/typec.ko;   cat drivers/usb/typec/altmodes/modules.order;   cat drivers/usb/typec/tcpm/modules.order;   cat drivers/usb/typec/tipd/modules.order;   echo drivers/usb/typec/hd3ss3220.ko;   cat drivers/usb/typec/mux/modules.order; :; } > drivers/usb/typec/modules.order

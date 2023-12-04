@@ -1,0 +1,3 @@
+drivers/mfd/exynos-lpass.ko
+drivers/mfd/wcd934x.ko
+drivers/mfd/wm8994.ko

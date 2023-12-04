@@ -1,0 +1,5 @@
+lib/crypto/libchacha.ko
+lib/crypto/libarc4.ko
+lib/crypto/libcurve25519-generic.ko
+lib/crypto/libdes.ko
+lib/crypto/libsha256.ko

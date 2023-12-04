@@ -1,0 +1,38 @@
+!<thin>
+//                                              328       `
+core.o/
+hisilicon/hi6220_reset.o/
+hisilicon/reset-hi3660.o/
+tegra/reset-bpmp.o/
+reset-brcmstb.o/
+reset-brcmstb-rescal.o/
+reset-imx7.o/
+reset-meson.o/
+reset-npcm.o/
+reset-qcom-aoss.o/
+reset-rzg2l-usbphy-ctrl.o/
+reset-scmi.o/
+reset-simple.o/
+reset-sunxi.o/
+reset-ti-sci.o/
+reset-uniphier.o/
+reset-uniphier-glue.o/
+reset-zynqmp.o/
+/0              0           0     0     644     121560    `
+/8              0           0     0     644     27824     `
+/34             0           0     0     644     26480     `
+/60             0           0     0     644     20736     `
+/80             0           0     0     644     30288     `
+/97             0           0     0     644     32768     `
+/121            0           0     0     644     36288     `
+/135            0           0     0     644     33224     `
+/150            0           0     0     644     54808     `
+/164            0           0     0     644     29920     `
+/183            0           0     0     644     43176     `
+/210            0           0     0     644     25568     `
+/224            0           0     0     644     34864     `
+/240            0           0     0     644     23480     `
+/255            0           0     0     644     32328     `
+/271            0           0     0     644     41224     `
+/289            0           0     0     644     34944     `
+/312            0           0     0     644     32384     `

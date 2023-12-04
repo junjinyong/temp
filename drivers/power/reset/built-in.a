@@ -1,0 +1,14 @@
+!<thin>
+//                                              104       `
+brcmstb-reboot.o/
+msm-poweroff.o/
+xgene-reboot.o/
+syscon-reboot.o/
+reboot-mode.o/
+syscon-reboot-mode.o/
+/0              0           0     0     644     25344     `
+/18             0           0     0     644     24328     `
+/34             0           0     0     644     25128     `
+/50             0           0     0     644     26192     `
+/67             0           0     0     644     32848     `
+/82             0           0     0     644     26872     `

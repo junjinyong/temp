@@ -1,0 +1,8 @@
+drivers/net/wireless/ath/ath10k/ath10k_core.ko
+drivers/net/wireless/ath/ath10k/ath10k_pci.ko
+drivers/net/wireless/ath/ath10k/ath10k_snoc.ko
+drivers/net/wireless/ath/wcn36xx/wcn36xx.ko
+drivers/net/wireless/ath/ath11k/ath11k.ko
+drivers/net/wireless/ath/ath11k/ath11k_ahb.ko
+drivers/net/wireless/ath/ath11k/ath11k_pci.ko
+drivers/net/wireless/ath/ath.ko

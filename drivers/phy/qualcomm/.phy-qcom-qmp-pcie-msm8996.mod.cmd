@@ -1,0 +1,1 @@
+cmd_drivers/phy/qualcomm/phy-qcom-qmp-pcie-msm8996.mod := printf '%s\n'   phy-qcom-qmp-pcie-msm8996.o | awk '!x[$$0]++ { print("drivers/phy/qualcomm/"$$0) }' > drivers/phy/qualcomm/phy-qcom-qmp-pcie-msm8996.mod

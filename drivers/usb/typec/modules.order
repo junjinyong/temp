@@ -1,0 +1,6 @@
+drivers/usb/typec/typec.ko
+drivers/usb/typec/tcpm/tcpm.ko
+drivers/usb/typec/tcpm/fusb302.ko
+drivers/usb/typec/tcpm/tcpci.ko
+drivers/usb/typec/tipd/tps6598x.ko
+drivers/usb/typec/hd3ss3220.ko

@@ -1,0 +1,58 @@
+!<thin>
+//                                              634       `
+hix5hd2_gmac.o/
+hns_mdio.o/
+hns/hnae.o/
+hns/hns_ae_adapt.o/
+hns/hns_dsaf_gmac.o/
+hns/hns_dsaf_mac.o/
+hns/hns_dsaf_misc.o/
+hns/hns_dsaf_main.o/
+hns/hns_dsaf_ppe.o/
+hns/hns_dsaf_rcb.o/
+hns/hns_dsaf_xgmac.o/
+hns/hns_enet.o/
+hns/hns_ethtool.o/
+hns3/hnae3.o/
+hns3/hns3_enet.o/
+hns3/hns3_ethtool.o/
+hns3/hns3_debugfs.o/
+hns3/hns3pf/hclge_main.o/
+hns3/hns3pf/hclge_mdio.o/
+hns3/hns3pf/hclge_tm.o/
+hns3/hns3pf/hclge_mbx.o/
+hns3/hns3pf/hclge_err.o/
+hns3/hns3pf/hclge_debugfs.o/
+hns3/hns3pf/hclge_ptp.o/
+hns3/hns3pf/hclge_devlink.o/
+hns3/hns3_common/hclge_comm_cmd.o/
+hns3/hns3_common/hclge_comm_rss.o/
+hns3/hns3_common/hclge_comm_tqp_stats.o/
+/0              0           0     0     644     141600    `
+/16             0           0     0     644     48912     `
+/28             0           0     0     644     80568     `
+/40             0           0     0     644     77352     `
+/60             0           0     0     644     170384    `
+/81             0           0     0     644     75616     `
+/101            0           0     0     644     66728     `
+/122            0           0     0     644     332064    `
+/143            0           0     0     644     92248     `
+/163            0           0     0     644     145864    `
+/183            0           0     0     644     160128    `
+/205            0           0     0     644     231400    `
+/221            0           0     0     644     76744     `
+/240            0           0     0     644     56560     `
+/254            0           0     0     644     427592    `
+/272            0           0     0     644     141208    `
+/293            0           0     0     644     94152     `
+/314            0           0     0     644     792248    `
+/340            0           0     0     644     42440     `
+/366            0           0     0     644     105296    `
+/390            0           0     0     644     101496    `
+/415            0           0     0     644     138712    `
+/440            0           0     0     644     197312    `
+/469            0           0     0     644     87848     `
+/494            0           0     0     644     25128     `
+/523            0           0     0     644     73816     `
+/558            0           0     0     644     38592     `
+/593            0           0     0     644     23184     `

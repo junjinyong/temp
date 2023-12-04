@@ -1,0 +1,474 @@
+# 0 "arch/arm64/boot/dts/mediatek/mt7986b-rfb.dts"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 1 "arch/arm64/boot/dts/mediatek/mt7986b-rfb.dts"
+
+
+
+
+
+
+/dts-v1/;
+# 1 "arch/arm64/boot/dts/mediatek/mt7986b.dtsi" 1
+
+
+
+
+
+
+# 1 "arch/arm64/boot/dts/mediatek/mt7986a.dtsi" 1
+
+
+
+
+
+
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h" 1
+# 8 "arch/arm64/boot/dts/mediatek/mt7986a.dtsi" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h" 1
+# 9 "arch/arm64/boot/dts/mediatek/mt7986a.dtsi" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/clock/mt7986-clk.h" 1
+# 10 "arch/arm64/boot/dts/mediatek/mt7986a.dtsi" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/reset/mt7986-resets.h" 1
+# 11 "arch/arm64/boot/dts/mediatek/mt7986a.dtsi" 2
+
+/ {
+ interrupt-parent = <&gic>;
+ #address-cells = <2>;
+ #size-cells = <2>;
+
+ clk40m: oscillator-40m {
+  compatible = "fixed-clock";
+  clock-frequency = <40000000>;
+  #clock-cells = <0>;
+  clock-output-names = "clkxtal";
+ };
+
+ cpus {
+  #address-cells = <1>;
+  #size-cells = <0>;
+  cpu0: cpu@0 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a53";
+   enable-method = "psci";
+   reg = <0x0>;
+   #cooling-cells = <2>;
+  };
+
+  cpu1: cpu@1 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a53";
+   enable-method = "psci";
+   reg = <0x1>;
+   #cooling-cells = <2>;
+  };
+
+  cpu2: cpu@2 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a53";
+   enable-method = "psci";
+   reg = <0x2>;
+   #cooling-cells = <2>;
+  };
+
+  cpu3: cpu@3 {
+   device_type = "cpu";
+   enable-method = "psci";
+   compatible = "arm,cortex-a53";
+   reg = <0x3>;
+   #cooling-cells = <2>;
+  };
+ };
+
+ psci {
+  compatible = "arm,psci-0.2";
+  method = "smc";
+ };
+
+ reserved-memory {
+  #address-cells = <2>;
+  #size-cells = <2>;
+  ranges;
+
+  secmon_reserved: secmon@43000000 {
+   reg = <0 0x43000000 0 0x30000>;
+   no-map;
+  };
+
+  wmcpu_emi: wmcpu-reserved@4fc00000 {
+   no-map;
+   reg = <0 0x4fc00000 0 0x00100000>;
+  };
+ };
+
+ timer {
+  compatible = "arm,armv8-timer";
+  interrupt-parent = <&gic>;
+  interrupts = <1 13 8>,
+        <1 14 8>,
+        <1 11 8>,
+        <1 10 8>;
+ };
+
+ soc {
+  #address-cells = <2>;
+  #size-cells = <2>;
+  compatible = "simple-bus";
+  ranges;
+
+  gic: interrupt-controller@c000000 {
+   compatible = "arm,gic-v3";
+   #interrupt-cells = <3>;
+   interrupt-parent = <&gic>;
+   interrupt-controller;
+   reg = <0 0x0c000000 0 0x10000>,
+         <0 0x0c080000 0 0x80000>,
+         <0 0x0c400000 0 0x2000>,
+         <0 0x0c410000 0 0x1000>,
+         <0 0x0c420000 0 0x2000>;
+   interrupts = <1 9 4>;
+  };
+
+  infracfg: infracfg@10001000 {
+   compatible = "mediatek,mt7986-infracfg", "syscon";
+   reg = <0 0x10001000 0 0x1000>;
+   #clock-cells = <1>;
+  };
+
+  wed_pcie: wed-pcie@10003000 {
+   compatible = "mediatek,mt7986-wed-pcie",
+         "syscon";
+   reg = <0 0x10003000 0 0x10>;
+  };
+
+  topckgen: topckgen@1001b000 {
+   compatible = "mediatek,mt7986-topckgen", "syscon";
+   reg = <0 0x1001B000 0 0x1000>;
+   #clock-cells = <1>;
+  };
+
+  watchdog: watchdog@1001c000 {
+   compatible = "mediatek,mt7986-wdt";
+   reg = <0 0x1001c000 0 0x1000>;
+   interrupts = <0 110 4>;
+   #reset-cells = <1>;
+   status = "disabled";
+  };
+
+  apmixedsys: apmixedsys@1001e000 {
+   compatible = "mediatek,mt7986-apmixedsys";
+   reg = <0 0x1001E000 0 0x1000>;
+   #clock-cells = <1>;
+  };
+
+  pio: pinctrl@1001f000 {
+   compatible = "mediatek,mt7986a-pinctrl";
+   reg = <0 0x1001f000 0 0x1000>,
+         <0 0x11c30000 0 0x1000>,
+         <0 0x11c40000 0 0x1000>,
+         <0 0x11e20000 0 0x1000>,
+         <0 0x11e30000 0 0x1000>,
+         <0 0x11f00000 0 0x1000>,
+         <0 0x11f10000 0 0x1000>,
+         <0 0x1000b000 0 0x1000>;
+   reg-names = "gpio", "iocfg_rt", "iocfg_rb", "iocfg_lt",
+        "iocfg_lb", "iocfg_tr", "iocfg_tl", "eint";
+   gpio-controller;
+   #gpio-cells = <2>;
+   gpio-ranges = <&pio 0 0 100>;
+   interrupt-controller;
+   interrupts = <0 225 4>;
+   interrupt-parent = <&gic>;
+   #interrupt-cells = <2>;
+  };
+
+  sgmiisys0: syscon@10060000 {
+   compatible = "mediatek,mt7986-sgmiisys_0",
+         "syscon";
+   reg = <0 0x10060000 0 0x1000>;
+   #clock-cells = <1>;
+  };
+
+  sgmiisys1: syscon@10070000 {
+   compatible = "mediatek,mt7986-sgmiisys_1",
+         "syscon";
+   reg = <0 0x10070000 0 0x1000>;
+   #clock-cells = <1>;
+  };
+
+  trng: rng@1020f000 {
+   compatible = "mediatek,mt7986-rng",
+         "mediatek,mt7623-rng";
+   reg = <0 0x1020f000 0 0x100>;
+   clocks = <&infracfg 55>;
+   clock-names = "rng";
+   status = "disabled";
+  };
+
+  uart0: serial@11002000 {
+   compatible = "mediatek,mt7986-uart",
+         "mediatek,mt6577-uart";
+   reg = <0 0x11002000 0 0x400>;
+   interrupts = <0 123 4>;
+   clocks = <&infracfg 1>,
+     <&infracfg 29>;
+   clock-names = "baud", "bus";
+   assigned-clocks = <&topckgen 30>,
+       <&infracfg 1>;
+   assigned-clock-parents = <&topckgen 0>,
+       <&topckgen 30>;
+   status = "disabled";
+  };
+
+  uart1: serial@11003000 {
+   compatible = "mediatek,mt7986-uart",
+         "mediatek,mt6577-uart";
+   reg = <0 0x11003000 0 0x400>;
+   interrupts = <0 124 4>;
+   clocks = <&infracfg 2>,
+     <&infracfg 30>;
+   clock-names = "baud", "bus";
+   assigned-clocks = <&infracfg 2>;
+   assigned-clock-parents = <&topckgen 54>;
+   status = "disabled";
+  };
+
+  uart2: serial@11004000 {
+   compatible = "mediatek,mt7986-uart",
+         "mediatek,mt6577-uart";
+   reg = <0 0x11004000 0 0x400>;
+   interrupts = <0 125 4>;
+   clocks = <&infracfg 3>,
+     <&infracfg 31>;
+   clock-names = "baud", "bus";
+   assigned-clocks = <&infracfg 3>;
+   assigned-clock-parents = <&topckgen 54>;
+   status = "disabled";
+  };
+
+  ethsys: syscon@15000000 {
+    #address-cells = <1>;
+    #size-cells = <1>;
+    compatible = "mediatek,mt7986-ethsys",
+          "syscon";
+    reg = <0 0x15000000 0 0x1000>;
+    #clock-cells = <1>;
+    #reset-cells = <1>;
+  };
+
+  wed0: wed@15010000 {
+   compatible = "mediatek,mt7986-wed",
+         "syscon";
+   reg = <0 0x15010000 0 0x1000>;
+   interrupt-parent = <&gic>;
+   interrupts = <0 205 4>;
+  };
+
+  wed1: wed@15011000 {
+   compatible = "mediatek,mt7986-wed",
+         "syscon";
+   reg = <0 0x15011000 0 0x1000>;
+   interrupt-parent = <&gic>;
+   interrupts = <0 206 4>;
+  };
+
+  eth: ethernet@15100000 {
+   compatible = "mediatek,mt7986-eth";
+   reg = <0 0x15100000 0 0x80000>;
+   interrupts = <0 196 4>,
+         <0 197 4>,
+         <0 198 4>,
+         <0 199 4>;
+   clocks = <&ethsys 0>,
+     <&ethsys 1>,
+     <&ethsys 2>,
+     <&ethsys 3>,
+     <&ethsys 4>,
+     <&sgmiisys0 0>,
+     <&sgmiisys0 1>,
+     <&sgmiisys0 2>,
+     <&sgmiisys0 3>,
+     <&sgmiisys1 0>,
+     <&sgmiisys1 1>,
+     <&sgmiisys1 2>,
+     <&sgmiisys1 3>,
+     <&topckgen 43>,
+     <&topckgen 44>;
+   clock-names = "fe", "gp2", "gp1", "wocpu1", "wocpu0",
+          "sgmii_tx250m", "sgmii_rx250m",
+          "sgmii_cdr_ref", "sgmii_cdr_fb",
+          "sgmii2_tx250m", "sgmii2_rx250m",
+          "sgmii2_cdr_ref", "sgmii2_cdr_fb",
+          "netsys0", "netsys1";
+   assigned-clocks = <&topckgen 46>,
+       <&topckgen 47>;
+   assigned-clock-parents = <&apmixedsys 1>,
+       <&apmixedsys 3>;
+   mediatek,ethsys = <&ethsys>;
+   mediatek,sgmiisys = <&sgmiisys0>, <&sgmiisys1>;
+   mediatek,wed-pcie = <&wed_pcie>;
+   mediatek,wed = <&wed0>, <&wed1>;
+   #reset-cells = <1>;
+   #address-cells = <1>;
+   #size-cells = <0>;
+   status = "disabled";
+  };
+
+  wifi: wifi@18000000 {
+   compatible = "mediatek,mt7986-wmac";
+   resets = <&watchdog 23>;
+   reset-names = "consys";
+   clocks = <&topckgen 50>,
+     <&topckgen 62>;
+   clock-names = "mcu", "ap2conn";
+   reg = <0 0x18000000 0 0x1000000>,
+         <0 0x10003000 0 0x1000>,
+         <0 0x11d10000 0 0x1000>;
+   interrupts = <0 213 4>,
+         <0 214 4>,
+         <0 215 4>,
+         <0 216 4>;
+   memory-region = <&wmcpu_emi>;
+  };
+ };
+
+};
+# 8 "arch/arm64/boot/dts/mediatek/mt7986b.dtsi" 2
+
+&pio {
+ compatible = "mediatek,mt7986b-pinctrl";
+ gpio-ranges = <&pio 0 0 41>, <&pio 66 66 35>;
+};
+# 9 "arch/arm64/boot/dts/mediatek/mt7986b-rfb.dts" 2
+
+/ {
+ model = "MediaTek MT7986b RFB";
+ compatible = "mediatek,mt7986b-rfb";
+
+ aliases {
+  serial0 = &uart0;
+ };
+
+ chosen {
+  stdout-path = "serial0:115200n8";
+ };
+
+ memory@40000000 {
+  device_type = "memory";
+  reg = <0 0x40000000 0 0x40000000>;
+ };
+};
+
+&uart0 {
+ status = "okay";
+};
+
+&eth {
+ status = "okay";
+
+ gmac0: mac@0 {
+  compatible = "mediatek,eth-mac";
+  reg = <0>;
+  phy-mode = "2500base-x";
+
+  fixed-link {
+   speed = <2500>;
+   full-duplex;
+   pause;
+  };
+ };
+
+ mdio: mdio-bus {
+  #address-cells = <1>;
+  #size-cells = <0>;
+
+  switch@0 {
+   compatible = "mediatek,mt7531";
+   reg = <31>;
+   reset-gpios = <&pio 5 0>;
+
+   ports {
+    #address-cells = <1>;
+    #size-cells = <0>;
+
+    port@0 {
+     reg = <0>;
+     label = "lan0";
+    };
+
+    port@1 {
+     reg = <1>;
+     label = "lan1";
+    };
+
+    port@2 {
+     reg = <2>;
+     label = "lan2";
+    };
+
+    port@3 {
+     reg = <3>;
+     label = "lan3";
+    };
+
+    port@4 {
+     reg = <4>;
+     label = "lan4";
+    };
+
+    port@6 {
+     reg = <6>;
+     label = "cpu";
+     ethernet = <&gmac0>;
+     phy-mode = "2500base-x";
+
+     fixed-link {
+      speed = <2500>;
+      full-duplex;
+      pause;
+     };
+    };
+   };
+  };
+ };
+};
+
+&wifi {
+ status = "okay";
+ pinctrl-names = "default", "dbdc";
+ pinctrl-0 = <&wf_2g_5g_pins>;
+ pinctrl-1 = <&wf_dbdc_pins>;
+};
+
+&pio {
+ wf_2g_5g_pins: wf-2g-5g-pins {
+  mux {
+   function = "wifi";
+   groups = "wf_2g", "wf_5g";
+  };
+  conf {
+   pins = "WF0_HB1", "WF0_HB2", "WF0_HB3", "WF0_HB4",
+          "WF0_HB0", "WF0_HB0_B", "WF0_HB5", "WF0_HB6",
+          "WF0_HB7", "WF0_HB8", "WF0_HB9", "WF0_HB10",
+          "WF0_TOP_CLK", "WF0_TOP_DATA", "WF1_HB1",
+          "WF1_HB2", "WF1_HB3", "WF1_HB4", "WF1_HB0",
+          "WF1_HB5", "WF1_HB6", "WF1_HB7", "WF1_HB8",
+          "WF1_TOP_CLK", "WF1_TOP_DATA";
+   drive-strength = <4>;
+  };
+ };
+
+ wf_dbdc_pins: wf-dbdc-pins {
+  mux {
+   function = "wifi";
+   groups = "wf_dbdc";
+  };
+  conf {
+   pins = "WF0_HB1", "WF0_HB2", "WF0_HB3", "WF0_HB4",
+          "WF0_HB0", "WF0_HB0_B", "WF0_HB5", "WF0_HB6",
+          "WF0_HB7", "WF0_HB8", "WF0_HB9", "WF0_HB10",
+          "WF0_TOP_CLK", "WF0_TOP_DATA";
+   drive-strength = <4>;
+  };
+ };
+};

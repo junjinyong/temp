@@ -1,0 +1,5 @@
+drivers/net/can/dev/can-dev.ko
+drivers/net/can/rcar/rcar_can.ko
+drivers/net/can/rcar/rcar_canfd.ko
+drivers/net/can/spi/mcp251xfd/mcp251xfd.ko
+drivers/net/can/flexcan/flexcan.ko

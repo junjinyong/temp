@@ -1,0 +1,1 @@
+cmd_drivers/platform/chrome/modules.order := {   echo drivers/platform/chrome/cros_typec_switch.ko;   echo drivers/platform/chrome/cros_ec_typec.ko;   echo drivers/platform/chrome/cros_ec_chardev.ko; :; } > drivers/platform/chrome/modules.order

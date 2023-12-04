@@ -1,0 +1,2 @@
+drivers/bus/mhi/host/mhi.ko
+drivers/bus/tegra-aconnect.ko

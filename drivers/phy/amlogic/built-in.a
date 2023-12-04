@@ -1,0 +1,19 @@
+!<thin>
+//                                              212       `
+phy-meson8b-usb2.o/
+phy-meson-gxl-usb2.o/
+phy-meson-g12a-usb2.o/
+phy-meson-g12a-usb3-pcie.o/
+phy-meson-g12a-mipi-dphy-analog.o/
+phy-meson-axg-pcie.o/
+phy-meson-axg-mipi-pcie-analog.o/
+phy-meson-axg-mipi-dphy.o/
+
+/0              0           0     0     644     48848     `
+/20             0           0     0     644     48032     `
+/42             0           0     0     644     70024     `
+/65             0           0     0     644     65208     `
+/93             0           0     0     644     44752     `
+/128            0           0     0     644     45152     `
+/150            0           0     0     644     47360     `
+/184            0           0     0     644     48664     `

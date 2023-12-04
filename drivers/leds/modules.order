@@ -1,0 +1,4 @@
+drivers/leds/led-class-multicolor.ko
+drivers/leds/leds-lm3692x.ko
+drivers/leds/leds-pca9532.ko
+drivers/leds/rgb/leds-qcom-lpg.ko

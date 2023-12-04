@@ -1,0 +1,16 @@
+drivers/media/platform/qcom/camss/qcom-camss.ko
+drivers/media/platform/qcom/venus/venus-core.ko
+drivers/media/platform/qcom/venus/venus-dec.ko
+drivers/media/platform/qcom/venus/venus-enc.ko
+drivers/media/platform/renesas/rcar-vin/rcar-csi2.ko
+drivers/media/platform/renesas/rcar-vin/rcar-vin.ko
+drivers/media/platform/renesas/vsp1/vsp1.ko
+drivers/media/platform/renesas/rcar_drif.ko
+drivers/media/platform/renesas/rcar-isp.ko
+drivers/media/platform/renesas/rcar-fcp.ko
+drivers/media/platform/renesas/rcar_fdp1.ko
+drivers/media/platform/samsung/exynos-gsc/exynos-gsc.ko
+drivers/media/platform/samsung/s5p-jpeg/s5p-jpeg.ko
+drivers/media/platform/samsung/s5p-mfc/s5p-mfc.ko
+drivers/media/platform/sunxi/sun6i-csi/sun6i-csi.ko
+drivers/media/platform/verisilicon/hantro-vpu.ko

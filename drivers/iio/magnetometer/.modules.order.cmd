@@ -1,0 +1,1 @@
+cmd_drivers/iio/magnetometer/modules.order := {   echo drivers/iio/magnetometer/st_magn.ko;   echo drivers/iio/magnetometer/st_magn_i2c.ko;   echo drivers/iio/magnetometer/st_magn_spi.ko; :; } > drivers/iio/magnetometer/modules.order

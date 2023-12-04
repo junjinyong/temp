@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/renesas/built-in.a := rm -f drivers/net/ethernet/renesas/built-in.a;  printf "drivers/net/ethernet/renesas/%s " sh_eth.o ravb_main.o ravb_ptp.o | xargs aarch64-linux-gnu-ar cDPrST drivers/net/ethernet/renesas/built-in.a

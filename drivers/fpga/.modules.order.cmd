@@ -1,0 +1,1 @@
+cmd_drivers/fpga/modules.order := {   echo drivers/fpga/altera-cvp.ko;   echo drivers/fpga/stratix10-soc.ko;   echo drivers/fpga/fpga-bridge.ko;   echo drivers/fpga/altera-freeze-bridge.ko;   echo drivers/fpga/fpga-region.ko;   echo drivers/fpga/of-fpga-region.ko; :; } > drivers/fpga/modules.order

@@ -1,0 +1,2 @@
+drivers/ufs/host/ufs_qcom.ko
+drivers/ufs/host/ufs-renesas.ko

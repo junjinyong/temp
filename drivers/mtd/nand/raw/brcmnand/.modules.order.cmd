@@ -1,0 +1,1 @@
+cmd_drivers/mtd/nand/raw/brcmnand/modules.order := {   echo drivers/mtd/nand/raw/brcmnand/iproc_nand.ko;   echo drivers/mtd/nand/raw/brcmnand/bcm63138_nand.ko;   echo drivers/mtd/nand/raw/brcmnand/brcmstb_nand.ko;   echo drivers/mtd/nand/raw/brcmnand/brcmnand.ko; :; } > drivers/mtd/nand/raw/brcmnand/modules.order

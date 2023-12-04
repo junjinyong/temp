@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/sunxi/sun6i-csi/sun6i-csi.mod := printf '%s\n'   sun6i_video.o sun6i_csi.o | awk '!x[$$0]++ { print("drivers/media/platform/sunxi/sun6i-csi/"$$0) }' > drivers/media/platform/sunxi/sun6i-csi/sun6i-csi.mod

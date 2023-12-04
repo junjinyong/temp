@@ -1,0 +1,3 @@
+drivers/nvmem/nvmem-layerscape-sfp.ko
+drivers/nvmem/nvmem_meson_efuse.ko
+drivers/nvmem/nvmem-rmem.ko

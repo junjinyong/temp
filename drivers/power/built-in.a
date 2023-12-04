@@ -1,0 +1,28 @@
+!<thin>
+//                                              344       `
+reset/brcmstb-reboot.o/
+reset/msm-poweroff.o/
+reset/xgene-reboot.o/
+reset/syscon-reboot.o/
+reset/reboot-mode.o/
+reset/syscon-reboot-mode.o/
+supply/power_supply_core.o/
+supply/power_supply_sysfs.o/
+supply/power_supply_leds.o/
+supply/power_supply_hwmon.o/
+supply/bq27xxx_battery.o/
+supply/bq27xxx_battery_i2c.o/
+supply/cros_peripheral_charger.o/
+/0              0           0     0     644     25344     `
+/24             0           0     0     644     24328     `
+/46             0           0     0     644     25128     `
+/68             0           0     0     644     26192     `
+/91             0           0     0     644     32848     `
+/112            0           0     0     644     26872     `
+/140            0           0     0     644     122208    `
+/168            0           0     0     644     59960     `
+/197            0           0     0     644     17336     `
+/225            0           0     0     644     45264     `
+/254            0           0     0     644     92120     `
+/280            0           0     0     644     55024     `
+/310            0           0     0     644     46312     `

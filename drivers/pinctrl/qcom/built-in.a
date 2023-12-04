@@ -1,0 +1,42 @@
+!<thin>
+//                                              372       `
+pinctrl-msm.o/
+pinctrl-ipq8074.o/
+pinctrl-ipq6018.o/
+pinctrl-msm8916.o/
+pinctrl-msm8994.o/
+pinctrl-msm8996.o/
+pinctrl-msm8998.o/
+pinctrl-qcs404.o/
+pinctrl-qdf2xxx.o/
+pinctrl-spmi-gpio.o/
+pinctrl-spmi-mpp.o/
+pinctrl-sc7180.o/
+pinctrl-sc7280.o/
+pinctrl-sc8180x.o/
+pinctrl-sc8280xp.o/
+pinctrl-sdm845.o/
+pinctrl-sm8150.o/
+pinctrl-sm8250.o/
+pinctrl-sm8350.o/
+pinctrl-sm8450.o/
+/0              0           0     0     644     150560    `
+/15             0           0     0     644     91408     `
+/34             0           0     0     644     97712     `
+/53             0           0     0     644     123920    `
+/72             0           0     0     644     138448    `
+/91             0           0     0     644     172984    `
+/110            0           0     0     644     152280    `
+/129            0           0     0     644     139504    `
+/147            0           0     0     644     33704     `
+/166            0           0     0     644     90840     `
+/187            0           0     0     644     73920     `
+/207            0           0     0     644     119136    `
+/225            0           0     0     644     155736    `
+/243            0           0     0     644     165808    `
+/262            0           0     0     644     187552    `
+/282            0           0     0     644     146640    `
+/300            0           0     0     644     150576    `
+/318            0           0     0     644     146784    `
+/336            0           0     0     644     163296    `
+/354            0           0     0     644     168440    `

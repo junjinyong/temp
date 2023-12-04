@@ -1,0 +1,9 @@
+drivers/perf/arm-cci.ko
+drivers/perf/arm-ccn.ko
+drivers/perf/arm-cmn.ko
+drivers/perf/arm_dsu_pmu.ko
+drivers/perf/arm_smmuv3_pmu.ko
+drivers/perf/fsl_imx8_ddr_perf.ko
+drivers/perf/thunderx2_pmu.ko
+drivers/perf/arm_spe_pmu.ko
+drivers/perf/arm_dmc620_pmu.ko

@@ -1,0 +1,1 @@
+cmd_drivers/char/hw_random/exynos-trng.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/char/hw_random/exynos-trng.ko drivers/char/hw_random/exynos-trng.o drivers/char/hw_random/exynos-trng.mod.o;  true

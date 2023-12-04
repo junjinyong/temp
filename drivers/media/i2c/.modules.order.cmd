@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/modules.order := {   echo drivers/media/i2c/imx219.ko;   echo drivers/media/i2c/ir-kbd-i2c.ko;   echo drivers/media/i2c/ov5640.ko;   echo drivers/media/i2c/ov5645.ko; :; } > drivers/media/i2c/modules.order

@@ -1,0 +1,24 @@
+!<thin>
+//                                              178       `
+brcmstb_dpfe.o/
+brcmstb_memc.o/
+fsl_ifc.o/
+mtk-smi.o/
+tegra/mc.o/
+tegra/tegra124.o/
+tegra/tegra210.o/
+tegra/tegra186.o/
+tegra/tegra194.o/
+tegra/tegra234.o/
+tegra/tegra186-emc.o/
+/0              0           0     0     644     66848     `
+/16             0           0     0     644     40536     `
+/32             0           0     0     644     54616     `
+/43             0           0     0     644     74728     `
+/54             0           0     0     644     94744     `
+/66             0           0     0     644     33136     `
+/84             0           0     0     644     26912     `
+/102            0           0     0     644     40920     `
+/120            0           0     0     644     26952     `
+/138            0           0     0     644     16400     `
+/156            0           0     0     644     38864     `

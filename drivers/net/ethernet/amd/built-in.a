@@ -1,0 +1,29 @@
+!<thin>
+//                                              244       `
+xgbe/xgbe-main.o/
+xgbe/xgbe-drv.o/
+xgbe/xgbe-dev.o/
+xgbe/xgbe-desc.o/
+xgbe/xgbe-ethtool.o/
+xgbe/xgbe-mdio.o/
+xgbe/xgbe-ptp.o/
+xgbe/xgbe-i2c.o/
+xgbe/xgbe-phy-v1.o/
+xgbe/xgbe-phy-v2.o/
+xgbe/xgbe-platform.o/
+xgbe/xgbe-pci.o/
+xgbe/xgbe-debugfs.o/
+
+/0              0           0     0     644     51192     `
+/18             0           0     0     644     204352    `
+/35             0           0     0     644     296016    `
+/52             0           0     0     644     55112     `
+/70             0           0     0     644     54248     `
+/91             0           0     0     644     80712     `
+/109            0           0     0     644     21432     `
+/126            0           0     0     644     42312     `
+/143            0           0     0     644     81576     `
+/163            0           0     0     644     139072    `
+/183            0           0     0     644     41752     `
+/205            0           0     0     644     35032     `
+/222            0           0     0     644     36512     `

@@ -1,0 +1,1 @@
+cmd_drivers/hwtracing/coresight/coresight-replicator.mod := printf '%s\n'   coresight-replicator.o | awk '!x[$$0]++ { print("drivers/hwtracing/coresight/"$$0) }' > drivers/hwtracing/coresight/coresight-replicator.mod

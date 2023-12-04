@@ -1,0 +1,47 @@
+!<thin>
+//                                              400       `
+mtk-eint.o/
+pinctrl-mtk-common.o/
+pinctrl-mtk-common-v2.o/
+pinctrl-moore.o/
+pinctrl-paris.o/
+pinctrl-mt2712.o/
+pinctrl-mt6765.o/
+pinctrl-mt6779.o/
+pinctrl-mt6795.o/
+pinctrl-mt6797.o/
+pinctrl-mt7622.o/
+pinctrl-mt7986.o/
+pinctrl-mt8167.o/
+pinctrl-mt8173.o/
+pinctrl-mt8183.o/
+pinctrl-mt8186.o/
+pinctrl-mt8188.o/
+pinctrl-mt8192.o/
+pinctrl-mt8195.o/
+pinctrl-mt8365.o/
+pinctrl-mt8516.o/
+pinctrl-mt6397.o/
+
+/0              0           0     0     644     62784     `
+/12             0           0     0     644     75072     `
+/34             0           0     0     644     74512     `
+/59             0           0     0     644     38632     `
+/76             0           0     0     644     59424     `
+/93             0           0     0     644     101560    `
+/111            0           0     0     644     101616    `
+/129            0           0     0     644     109256    `
+/147            0           0     0     644     96440     `
+/165            0           0     0     644     103944    `
+/183            0           0     0     644     101440    `
+/201            0           0     0     644     57128     `
+/219            0           0     0     644     72928     `
+/237            0           0     0     644     71792     `
+/255            0           0     0     644     98776     `
+/273            0           0     0     644     113008    `
+/291            0           0     0     644     127640    `
+/309            0           0     0     644     129408    `
+/327            0           0     0     644     97600     `
+/345            0           0     0     644     84816     `
+/363            0           0     0     644     69656     `
+/381            0           0     0     644     37576     `

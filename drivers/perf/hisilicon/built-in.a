@@ -1,0 +1,16 @@
+!<thin>
+//                                              158       `
+hisi_uncore_pmu.o/
+hisi_uncore_l3c_pmu.o/
+hisi_uncore_hha_pmu.o/
+hisi_uncore_ddrc_pmu.o/
+hisi_uncore_sllc_pmu.o/
+hisi_uncore_pa_pmu.o/
+hisi_uncore_cpa_pmu.o/
+/0              0           0     0     644     66264     `
+/19             0           0     0     644     82272     `
+/42             0           0     0     644     77840     `
+/65             0           0     0     644     75272     `
+/89             0           0     0     644     74080     `
+/113            0           0     0     644     67856     `
+/135            0           0     0     644     59976     `

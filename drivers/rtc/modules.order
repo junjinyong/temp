@@ -1,0 +1,16 @@
+drivers/rtc/rtc-ds1307.ko
+drivers/rtc/rtc-fsl-ftm-alarm.ko
+drivers/rtc/rtc-hym8563.ko
+drivers/rtc/rtc-imx-sc.ko
+drivers/rtc/rtc-m41t80.ko
+drivers/rtc/rtc-meson-vrtc.ko
+drivers/rtc/rtc-mt6397.ko
+drivers/rtc/rtc-pcf2127.ko
+drivers/rtc/rtc-pcf85063.ko
+drivers/rtc/rtc-pcf85363.ko
+drivers/rtc/rtc-pm8xxx.ko
+drivers/rtc/rtc-rk808.ko
+drivers/rtc/rtc-rv3028.ko
+drivers/rtc/rtc-rv8803.ko
+drivers/rtc/rtc-rx8581.ko
+drivers/rtc/rtc-snvs.ko
