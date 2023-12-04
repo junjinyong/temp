@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/broadcom/brcm80211/brcmfmac/modules.order := {   echo drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko; :; } > drivers/net/wireless/broadcom/brcm80211/brcmfmac/modules.order

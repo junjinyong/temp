@@ -1,1 +1,0 @@
-cmd_drivers/media/platform/raspberrypi/pisp_be/built-in.a := rm -f drivers/media/platform/raspberrypi/pisp_be/built-in.a;  aarch64-linux-gnu-ar cDPrST drivers/media/platform/raspberrypi/pisp_be/built-in.a

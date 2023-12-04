@@ -1,1 +1,0 @@
-cmd_drivers/staging/media/deprecated/tm6000/modules.order := {   echo drivers/staging/media/deprecated/tm6000/tm6000.ko;   echo drivers/staging/media/deprecated/tm6000/tm6000-alsa.ko;   echo drivers/staging/media/deprecated/tm6000/tm6000-dvb.ko; :; } > drivers/staging/media/deprecated/tm6000/modules.order

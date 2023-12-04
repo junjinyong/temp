@@ -1,1 +1,0 @@
-cmd_drivers/vhost/modules.order := {   echo drivers/vhost/vhost_net.ko;   echo drivers/vhost/vhost_vsock.ko;   echo drivers/vhost/vhost.ko;   echo drivers/vhost/vhost_iotlb.ko; :; } > drivers/vhost/modules.order

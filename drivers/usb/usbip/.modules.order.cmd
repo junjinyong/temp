@@ -1,1 +1,0 @@
-cmd_drivers/usb/usbip/modules.order := {   echo drivers/usb/usbip/usbip-core.ko;   echo drivers/usb/usbip/vhci-hcd.ko;   echo drivers/usb/usbip/usbip-host.ko;   echo drivers/usb/usbip/usbip-vudc.ko; :; } > drivers/usb/usbip/modules.order

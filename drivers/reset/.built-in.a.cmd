@@ -1,1 +1,0 @@
-cmd_drivers/reset/built-in.a := rm -f drivers/reset/built-in.a;  printf "drivers/reset/%s " core.o hisilicon/built-in.a reset-brcmstb.o reset-brcmstb-rescal.o reset-raspberrypi.o reset-simple.o | xargs aarch64-linux-gnu-ar cDPrST drivers/reset/built-in.a

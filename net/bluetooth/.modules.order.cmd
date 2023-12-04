@@ -1,1 +1,0 @@
-cmd_net/bluetooth/modules.order := {   echo net/bluetooth/bluetooth.ko;   cat net/bluetooth/rfcomm/modules.order;   cat net/bluetooth/bnep/modules.order;   cat net/bluetooth/hidp/modules.order;   echo net/bluetooth/bluetooth_6lowpan.ko; :; } > net/bluetooth/modules.order

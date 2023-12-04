@@ -1,1 +1,0 @@
-cmd_drivers/regulator/modules.order := {   echo drivers/regulator/arizona-ldo1.ko;   echo drivers/regulator/arizona-micsupp.ko;   echo drivers/regulator/rpi-panel-attiny-regulator.ko; :; } > drivers/regulator/modules.order

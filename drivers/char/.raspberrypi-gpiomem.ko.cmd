@@ -1,1 +1,0 @@
-cmd_drivers/char/raspberrypi-gpiomem.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/char/raspberrypi-gpiomem.ko drivers/char/raspberrypi-gpiomem.o drivers/char/raspberrypi-gpiomem.mod.o;  true

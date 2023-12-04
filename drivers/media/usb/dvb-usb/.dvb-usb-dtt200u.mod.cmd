@@ -1,1 +1,0 @@
-cmd_drivers/media/usb/dvb-usb/dvb-usb-dtt200u.mod := printf '%s\n'   dtt200u.o dtt200u-fe.o | awk '!x[$$0]++ { print("drivers/media/usb/dvb-usb/"$$0) }' > drivers/media/usb/dvb-usb/dvb-usb-dtt200u.mod

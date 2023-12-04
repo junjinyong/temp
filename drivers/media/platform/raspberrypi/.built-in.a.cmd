@@ -1,1 +1,0 @@
-cmd_drivers/media/platform/raspberrypi/built-in.a := rm -f drivers/media/platform/raspberrypi/built-in.a;  printf "drivers/media/platform/raspberrypi/%s " pisp_be/built-in.a rp1_cfe/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/media/platform/raspberrypi/built-in.a
